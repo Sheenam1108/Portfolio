@@ -20,6 +20,12 @@ nav {
     background-color:grey;
     color: white;
   }
+  img{
+    text-align: center;
+    margin-left: 27rem;
+    height: 18rem;
+    object-fit: contain;
+}
   .head{
       background-color: lightgray;
       color: white;
@@ -50,11 +56,7 @@ footer {
     background-color: DarkSalmon;
     color: white;
   }
- img{
-     text-align: center;
-     margin-left: 27rem;
-     height: 18rem;
- }
+
  button
   {background-color: #555555;
   color: aliceblue;
