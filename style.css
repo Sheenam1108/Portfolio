@@ -1,0 +1,61 @@
+body{
+  background-color: dodgerblue;
+}
+nav {
+    overflow: hidden;
+    background-color:darksalmon;
+  }
+  
+  nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2rem 1rem;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color:grey;
+    color: white;
+  }
+  .head{
+      background-color: lightgray;
+      color: white;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+  }
+.strength1
+{
+    width: 50%;
+border-radius: 25px;
+background:lightgrey;
+}
+.strength2
+{
+border-radius: 25px;
+background:darksalmon;
+text-align: center;
+color: white;
+}
+.awesome
+{
+    color:darksalmon;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+ img{
+     text-align: center;
+     margin-left: 27rem;
+     height: 18rem;
+ }
+ button
+  {background-color: #555555;
+  color: aliceblue;
+  }
