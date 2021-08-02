@@ -28,14 +28,9 @@
   }
   
    img{
-    text-align: center;
-    margin-left: 27rem;
-    height: 18rem;
-    object-fit: contain;
-    /* width:100%;
-    height:100%;
-    margin-left: 17rem;
-    height: 22rem; */
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
 } 
 span{
   font-weight: bolder;
