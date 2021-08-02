@@ -1,34 +1,50 @@
-body{
-  background-color: dodgerblue;
-}
-nav {
+  #num
+  {
+    background-color: blanchedalmond;
+  }
+  nav {
     overflow: hidden;
-    background-color:darksalmon;
+    background-color:black;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+    /* display: flex; */
   }
   
   nav a {
-    float: right;
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 2rem 1rem;
-    text-decoration: underline;
+    padding: 14px 16px;
+    text-decoration: none;
     font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color:darksalmon;
+    color: black;
     font-weight: bold;
   }
-  nav a:hover {
-    background-color:grey;
-    color: white;
-  }
-  img{
+  
+   img{
     text-align: center;
     margin-left: 27rem;
     height: 18rem;
     object-fit: contain;
+    /* width:100%;
+    height:100%;
+    margin-left: 17rem;
+    height: 22rem; */
+} 
+span{
+  font-weight: bolder;
+  color: darksalmon;
+  font-size: 1.5rem;
 }
   .head{
       background-color: lightgray;
-      color: white;
+      color:black;
       font-weight: bold;
       font-family: sans-serif;
       text-align: center;
